@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aside left part css  */
+
+.aside-tag {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: auto;
+    z-index: 999;
+    background-color: #666;
+    padding: 35px 0 10px 0;
+}
+
+.aside-left-div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-aside-img-div-top {
+    width: 150px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+
+.box-aside-img-div-top img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.box-content-aside-content-div {
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+
+.box-content-aside-content-div h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #17202A;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+.box-content-aside-content-div p {
+    font-family: "Quicksand", Arial, sans-serif;
+    color: #17202B;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/* aside navbar  */
+
+.nav-ol-tag {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.nav-ol-tag li {
+    padding: 5px;
+}
+
+.nav-ol-tag a {
+    color: #222;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
