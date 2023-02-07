@@ -7,12 +7,12 @@
 /* aside left part css  */
 
 .aside-tag {
-    width: 100%;
-    height: 600px;
-    position: relative;
+    width: 21.7%;
+    height: 100vh;
+    position: fixed;
     overflow: auto;
     z-index: 999;
-    background-color: #666;
+    background-color: #000;
     padding: 35px 0 10px 0;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .box-aside-img-div-top {
-    width: 150px;
+    width: 170px;
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -47,14 +47,15 @@
 .box-content-aside-content-div h2 {
     font-size: 2.5rem;
     font-weight: 500;
-    color: #17202A;
+    color: white;
     font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
 }
 
 .box-content-aside-content-div p {
     font-family: "Quicksand", Arial, sans-serif;
-    color: #17202B;
-    font-size: 1.4rem;
+    color: lightgray;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -63,6 +64,7 @@
 .nav-ol-tag {
     list-style-type: none;
     padding: 5px 0;
+    line-height: 28px;
 }
 
 .nav-ol-tag li {
@@ -70,12 +72,156 @@
 }
 
 .nav-ol-tag a {
-    color: #222;
-    font-size: 1.6rem;
+    position: relative;
+    color: whitesmoke;
+    font-size: 1.7rem;
     text-decoration: none;
     text-transform: capitalize;
     display: block;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     font-family: 'Poppins', sans-serif;
+}
+
+.nav-ol-tag a:hover {
+    color: lightgray;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+}
+
+.nav-ol-tag a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    height: 2px;
+    background: lightgray;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-ol-tag a:hover::after {
+    transform: scale(1);
+    transform-origin: left;
+}
+
+.aside-footer-div {
+    text-align: center;
+}
+
+.aside-footer-div p {
+    font-family: "Quicksand", Arial, sans-serif;
+    color: lightgray;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.aside-footer-div span {
+    font-family: "Quicksand", Arial, sans-serif;
+    color: lightgray;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* home content  */
+.images-home-div {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.images-home-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-content-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+
+.home-content-div h1 {
+    font-size: 5.5rem;
+    font-weight: 900;
+    color: #222;
+    font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
+}
+
+.home-content-div h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #17202A;
+    font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+/* about us ` */
+
+.about-us-top-content {
+    position: relative;
+    margin: 100px 0 10px 0;
+    padding: 0 0 0 20px;
+}
+
+.about-us-top-content h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #17202A;
+    font-family: "Quicksand", Arial, sans-serif;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+.about-us-top-content h5 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #17202A;
+    font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+}
+
+.about-us-top-content {
+    font-family: "Quicksand", Arial, sans-serif;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.boxes-about-us-flex-div {
+    margin: 25px 25px;
+
+}
+
+.boxes-about-us-content {
+    border: 2px solid #442525;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+
+    text-align: center;
+    width: 200px;
+    height: 120px;
+
+    cursor: pointer;
 }
