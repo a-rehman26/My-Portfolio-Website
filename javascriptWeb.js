@@ -1,5 +1,5 @@
 let valuesDisplay = document.querySelectorAll(".num-counting-span-1");
-let interval = 4000;
+let interval = 9000;
 
 valuesDisplay.forEach((valuesDisplay) => {
     let startValue = 0;
@@ -15,4 +15,5 @@ valuesDisplay.forEach((valuesDisplay) => {
             clearInterval(counter)
         }
     })
+
 })

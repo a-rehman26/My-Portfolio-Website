@@ -126,6 +126,10 @@
     line-height: 28px;
 }
 
+.icon-res-div {
+    display: none;
+}
+
 /* home content  */
 .images-home-div {
     width: 100%;
@@ -468,12 +472,14 @@
 .counting-content-div {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
 }
 
 .counting-box-main-div {
-    width: 150px;
-    height: 100px;
-    border: 1px solid white;
+    width: 175px;
+    height: 120px;
+    border: 1px solid #999;
     background-color: #9999;
 
     display: flex;
@@ -485,13 +491,20 @@
 }
 
 .counting-box-main-div i {
-    color: rgb(22, 22, 22);
+    color: #222;
+    font-size: 25px;
+    margin: 0 0 10px 0;
 }
 
 .num-counting-span-1 {
-    color: rgb(20, 20, 20);
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .num-counting-span-2 {
     color: rgb(24, 23, 23);
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
 }
