@@ -508,3 +508,215 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
 }
+
+/* skilss  */
+.skilss-top-content {
+    padding: 30px 22px;
+}
+
+.skilss-top-content h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #17202A;
+    font-family: "Quicksand", Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+.skilss-top-content h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #17202A;
+    font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
+    line-height: 42px;
+}
+
+.skills-div-main-content {
+    width: 100%;
+    margin: 30px 20px;
+}
+
+.skills-div-main-content p {
+    width: 88%;
+    padding: 10px 0px;
+    line-height: 24px;
+    font-size: 1.4rem;
+    color: #17202A;
+    font-family: "Quicksand", Arial, sans-serif;
+
+}
+
+.slills-div-main-content01 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slills-div-main-content01 li {
+    margin: 20px 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    width: 200px;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 14px 0 lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+.bar .html {
+    background: #2c98f0;
+    float: left;
+    height: 20px;
+}
+
+.bar .css {
+    background: rgb(23, 151, 66);
+    float: left;
+    height: 20px;
+}
+
+
+.bar .js {
+    background: rgb(185, 46, 22);
+    float: left;
+    height: 20px;
+}
+
+.html {
+    width: 85%;
+    animation: html 2s ease-in-out;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+
+}
+
+
+.js {
+    width: 30%;
+    animation: js 2s ease-in-out;
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+
+}
+
+.css {
+    width: 70%;
+    animation: css 2s ease-in-out;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+
+}
+
+
+.slills-div-main-content02 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slills-div-main-content02 li {
+    margin: 20px 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+
+.bar .php {
+    background: #f9bf3f;
+    float: left;
+    height: 20px;
+}
+
+
+.bar .seo {
+    background: #ec5453;
+    float: left;
+    height: 20px;
+}
+
+.bar .sql {
+    position: relative;
+    background: #a84cb8;
+    float: left;
+    height: 20px;
+}
+
+
+.seo {
+    width: 60%;
+    animation: seo 2s ease-in-out;
+}
+
+@keyframes seo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+
+}
+
+
+.php {
+    width: 75%;
+    animation: php 2s ease-in-out;
+}
+
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+
+}
+
+.sql {
+    width: 85%;
+    animation: sql 2s ease-in-out;
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+
+}
